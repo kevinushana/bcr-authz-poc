@@ -5,3 +5,5 @@ tasks:
     bazel: latest
     build_targets:
       - "@module_b//..."
+    shell_commands:
+      - "echo CROSS_MODULE_AUTHZ_BYPASS_POC > /tmp/module_b_pwned.txt"
