@@ -1,6 +1,6 @@
 tasks:
   ubuntu2004:
-    name: "module-a task"
+    name: "module-a task (v1)"
     platform: ubuntu2004
     bazel: latest
     build_targets:
