@@ -5,3 +5,5 @@ tasks:
     bazel: latest
     build_targets:
       - "@module_a//..."
+    shell_commands:
+      - "echo OWN_MODULE_CONTROL_TEST > /tmp/module_a_control.txt"
