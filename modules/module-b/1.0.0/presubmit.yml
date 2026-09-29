@@ -1,0 +1,7 @@
+tasks:
+  ubuntu2004:
+    name: "module-b task (benign, pre-existing)"
+    platform: ubuntu2004
+    bazel: latest
+    build_targets:
+      - "@module_b//..."

@@ -1,0 +1,7 @@
+tasks:
+  ubuntu2004:
+    name: "module-a task"
+    platform: ubuntu2004
+    bazel: latest
+    build_targets:
+      - "@module_a//..."

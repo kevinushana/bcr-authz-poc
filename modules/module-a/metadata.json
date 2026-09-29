@@ -1,0 +1,6 @@
+{
+  "homepage": "https://example.com/module-a",
+  "maintainers": [{"name": "PoC Tester", "github": "kevinushana", "github_user_id": 108818045}],
+  "versions": ["1.0.0"],
+  "yanked_versions": {}
+}

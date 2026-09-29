@@ -1,0 +1,6 @@
+{
+  "homepage": "https://example.com/module-b",
+  "maintainers": [{"name": "Someone Else", "github": "someone-else-not-kevinushana", "github_user_id": 999999999}],
+  "versions": ["1.0.0"],
+  "yanked_versions": {}
+}
