@@ -1,0 +1,15 @@
+name: bcr-pr-reviewer-poc
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@bd6a90eceb738c010fd1a9b472e8b6c894e6ea4e
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          action-type: review_prs
