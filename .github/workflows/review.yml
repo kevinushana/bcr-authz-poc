@@ -9,7 +9,8 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@bd6a90eceb738c010fd1a9b472e8b6c894e6ea4e
+      - uses: actions/checkout@v4
+      - uses: ./local-action/actions/bcr-pr-reviewer
         with:
           token: ${{ secrets.BCR_POC_TOKEN }}
           action-type: review_prs
